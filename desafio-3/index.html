@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio 3</title>
+
+    <style>
+        section {
+            width: 300px;
+            height: 200px;
+            border: 1px solid;
+            border-color: black;
+            margin: 5px;
+            display: inline-block;
+            box-sizing: border-box;
+        }
+
+        .espana {
+            background-color: red;
+        }
+
+        .espana-red {
+            background-color: red;
+            height: 30%;
+        }
+
+        .espana-yellow {
+            background-color: yellow;
+            height: 40%;
+        }
+
+        .dinamarca {
+            background-color: red;
+            position: relative;
+        }
+
+        .dinamarca-red {
+            height: 45%;
+            width: 45%;
+        }
+
+        .dinamarca-white-1 {
+            width: 300px;
+            border-bottom: 20px solid white; 
+            height: 45%;
+            position: absolute;
+            top: 0;
+            z-index: 1;
+        }
+
+        .dinamarca-white-2 {
+            border-right: 20px solid white; 
+            height: 200px;
+            position: absolute;
+            top: 0;
+            z-index: 2;
+            width: 100px;
+        }
+
+        .emiratos {
+            background-color: red;
+        }
+
+        .emiratos-red {
+            background-color: red;
+            width: 20%;
+        }
+
+        .emiratos-green {
+            background-color: green;
+            height: 33.3%;
+            width: 75%;
+            float: right;
+        }
+
+        .emiratos-white {
+            background-color: white;
+            height: 33.3%;
+            width: 75%;
+            float: right;
+        }
+
+        .emiratos-black {
+            background-color: black;
+            height: 33.3%;
+            width: 75%;
+            float: right;
+        }
+
+        .japon {
+            background-image: radial-gradient(circle, red 33%, white 33%, white);
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="espana">
+        <div class="espana-red"></div>
+        <div class="espana-yellow"></div>
+    </section>
+
+    <section class="dinamarca">
+        <div class="dinamarca-red"></div>
+        <div class="dinamarca-white-1"></div>
+        <div class="dinamarca-white-2"></div>
+    </section>
+
+    <section class="emiratos">
+        <div class="emiratos-green"></div>
+        <div class="emiratos-white"></div>
+        <div class="emiratos-black"></div>
+    </section>
+
+    <section class="japon"></section>
+
+
+</body>
+
+</html>
